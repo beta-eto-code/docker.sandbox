@@ -22,7 +22,6 @@ services:
         user: "0:1000"
     mailcatcher:
         image: schickling/mailcatcher
-        container_name: csk-mailcatcher
         restart: unless-stopped
         expose:
             - 1080
